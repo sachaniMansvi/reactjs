@@ -1,0 +1,17 @@
+.cs{
+    color: brown;
+    list-style-type: upper-roman;
+    box-sizing: content-box;
+    width: 20%;
+   border: solid #5B6DCD 5px;
+   padding: 20px;
+   justify-content: center;
+
+
+}
+.listcs{
+    box-sizing: content-box;
+    border: 2px solid rgb(216, 227, 230);
+    margin: 10px;
+    padding: 10px;
+}

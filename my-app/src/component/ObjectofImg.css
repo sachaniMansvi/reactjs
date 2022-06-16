@@ -1,0 +1,14 @@
+.main_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    flex-wrap: wrap;
+    /* width: 100%; */
+}
+.container{
+    padding: 10px;
+    text-align: justify;
+    font-size: small;
+    width: 200px;
+}
