@@ -1,0 +1,28 @@
+/* .App{
+    text-align: center;
+} */
+body{
+    background-color: rgba(8, 8, 8, 0.158);
+    margin: 20px;
+}
+.Main_div
+{
+    justify-content: center;
+    display: flex;
+    text-align:initial;
+  
+}
+.heading{
+    color: aliceblue;
+    justify-content: center;
+    display: flex;
+}
+.label{
+    color: aliceblue;
+}
+.btn{
+    justify-content: center;
+    display: flex;
+    margin: 2% 47%; 
+}
+

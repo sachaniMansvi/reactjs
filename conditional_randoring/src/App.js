@@ -1,16 +1,10 @@
-// import MailBox from './Component/MailBox';
-// import Conditional_Randoring from './Component/Conditional_Randoring';
-// import Conditional_ternary from './Conditional_ternary';
-import Animal from './Animal';
-import './App.css';
-
+// import Foam from './Component/FOAm/foam';
+import CheckBox from "./Component/FOAm/checkBox";
 function App() {
   return (
-    <div >
-  {/* <MailBox></MailBox> */}
-  {/* <Conditional_Randoring></Conditional_Randoring> */}
-  {/* <Conditional_ternary></Conditional_ternary> */}
-  <Animal></Animal>
+    <div className='App'>
+<CheckBox></CheckBox>
+{/* <Foam></Foam> */}
     </div>
   );
 }
