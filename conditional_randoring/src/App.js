@@ -9,17 +9,11 @@ import UpdateData from "./Component/UpdateData";
 function App() {
   const [update,setUpdate]=useState(false)
   useEffect(()=>{
-    if(window.location.href.includes("update")){
-      setUpdate(true)
-    }
-    else{
-      setUpdate(false)
-    }
+    window.location.href.includes("update")?setUpdate(true):setUpdate(false) 
   },[])
- 
   return (
     <div className='App'>
-        {update===true? <UpdateData/>:<AddData/>}
+        {update?<UpdateData/>:<AddData/>}
         <GetData/>
     </div>
   );

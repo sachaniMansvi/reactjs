@@ -20,7 +20,6 @@ function GetData() {
                 return(
                     <div style={{color:"#4e515e",border:"solid 1px #96ebad"}}>
                     <div key={value._id}>
-
                        <a href={`/update/${value._id}`}><h4> Title : {value.title} </h4></a> 
                         <h5> Content : {value.content} </h5>
                     </div>

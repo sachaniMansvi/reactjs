@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// import Appt from './Component/todo2/Appt';
+// import AppT from './Component/TODOS/AppT';
+// import App from './App';
+import AppF from './Component/FOAm/AppF';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
-    <App />
+     {/* <AppT></AppT> */}
+    {/* <App /> */}
+    {/* <Appt></Appt> */}
+    <AppF></AppF>
+ 
   </React.StrictMode>
 );
 

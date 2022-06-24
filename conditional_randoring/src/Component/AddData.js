@@ -17,6 +17,10 @@ function AddData() {
         }).catch((e) => {
             console.log(e);
         })
+        setAddnotes({
+        title:"",
+        content:""
+        })
        }
     return ( 
         <div  style={{margin:"0px 45%"}}>
